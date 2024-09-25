@@ -27,9 +27,9 @@ print(calculation)
 name = "Keily Drogt"
 age = 17
 fav_color = "Navy Blue"
+message = "My name is {0}, I am {1} years of age and my fovorite color is {2}." format(name, age, fav_color)
 
-
-
+print(message)
 
 
 
