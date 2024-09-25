@@ -13,6 +13,21 @@ product = num1 * num2
 # Show the output (answer)
 print(f'{num1} times {num2} = {product}')
 
+
 # Practice 2
 length = float(input("Enter the lenght on your room in feet: "))
 width = float(input("Enter the width of your room in feet: "))
+
+calculation = length * width
+
+print(calculation)
+
+
+# Practice 3
+
+
+
+
+
+
+
