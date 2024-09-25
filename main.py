@@ -4,8 +4,8 @@
 
 #Practice 1
 # Create and assign a numeric value to each variable
-num1 = 5
-num2 = 2
+num1 = 7
+num2 = 9
 
 # Formula to do the multiplication
 product = num1 * num2
@@ -24,12 +24,32 @@ print(calculation)
 
 
 # Practice 3
+# Part 1
 name = "Keily Drogt"
 age = 17
-fav_color = "Navy Blue"
-message = "My name is {0}, I am {1} years of age and my fovorite color is {2}." format(name, age, fav_color)
+fav_color = "navy blue"
+message = "My name is {0}, I am {1} years of age and my fovorite color is {2}." .format(name, age, fav_color)
 
 print(message)
+
+# Part 2
+item1 = 1.99
+item2 = 20.89
+item3 = 15.59
+
+grand_total = item1 + item2 + item3 
+tax = grand_total * 0.06 + grand_total
+
+script = "My items were {0}, {1}, {2}, so the total was {3} but with tax its {4}." .format(item1, item2, item3, grand_total, tax)
+
+print(script)
+
+# Part 3
+friend_name = "Katelyn"
+
+friend = "My friends name is {0}.".format(friend_name)
+
+print(friend)
 
 
 
