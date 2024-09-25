@@ -26,7 +26,7 @@ print(calculation)
 # Practice 3
 name = "Keily Drogt"
 age = 17
-
+fav_color = "Navy Blue"
 
 
 
